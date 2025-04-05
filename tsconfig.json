@@ -1,12 +1,30 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "target": "ESNext",
+    "lib": [
+      "ESNext",
+      "dom",
+    ],
+    // "sourceMap": true,
     "allowJs": true,
-    "strict": true,
-    "target": "es5",
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitThis": true,
+    /* Bundler mode */
+    "moduleResolution": "Bundler",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "resolveJsonModule": true,
-    "lib": ["es2015", "dom"]
+    /* Linting */
+    "strict": true,
   },
-  "include": ["./src/**/*"],
-  "exclude": ["**/__tests__/*"]
+  "files": [
+    "./src/index.ts"
+  ],
 }

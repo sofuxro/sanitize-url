@@ -1,15 +1,25 @@
-# sanitize-url
+<p align="center">
+<img src="assets/logo.jpeg" alt="Faker" width="200" align="center" title="Sanitize your url inputs">
+</p>
+
+<br />
+
+<p align="center">
+Sanitize your url inputs
+</p>
+<br />
+
 
 ## Installation
 
 ```sh
-npm install -S @braintree/sanitize-url
+npm install -S @sofuxro/sanitize-url
 ```
 
 ## Usage
 
 ```js
-var sanitizeUrl = require("@braintree/sanitize-url").sanitizeUrl;
+import { sanitizeUrl } from '@sofuxro/sanitize-url';
 
 sanitizeUrl("https://example.com"); // 'https://example.com'
 sanitizeUrl("http://example.com"); // 'http://example.com'

@@ -1,5 +1,29 @@
 # CHANGELOG
 
+## 1.0.0
+- Fork from @braintree/sanitize-url mainly for adding `import` support
+- DevDependency Changes
+  - Switch from prettier to [Eslint Stylistic](https://eslint.style/)
+  - Removed jest and chai (in favour of vitest)
+  - happy-dom to 17.4.4
+  - eslint to 9.22.0
+  - typescript to 5.8.2
+  - vitest to 3.1.1
+- Build misc
+  - Switch build from `tsc` to `vite`
+  - Added source map
+
+
+
+
+
+
+
+
+<br /><br /><br /><br /><br /><br /><br /><br />
+---
+### Keeping the previous changelog as a reference
+
 ## 7.1.1
 
 - DevDependency Changes
