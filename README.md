@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/sofuxro/sanitize-url/raw/main/assets/logo.jpeg" alt="Faker" width="200" align="center" title="Sanitize your url inputs">
+<img src="https://github.com/sofuxro/sanitize-url/raw/main/assets/logo.jpg" alt="Faker" width="200" align="center" title="Sanitize your url inputs">
 </p>
 
 <br />
@@ -19,7 +19,7 @@ npm install -S @sofuxro/sanitize-url
 ## Usage
 
 ```js
-import { sanitizeUrl } from '@sofuxro/sanitize-url';
+import { sanitizeUrl } from '@sofuxro/sanitize-url'
 
 sanitizeUrl("https://example.com"); // 'https://example.com'
 sanitizeUrl("http://example.com"); // 'http://example.com'
@@ -37,6 +37,14 @@ sanitizeUrl(
   "&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041"
 ); // 'about:blank'
 ```
+
+<details>
+<summary>Usage commonJs - require (legacy)</summary>
+
+```js
+const sanitizeUrl = require("@braintree/sanitize-url").sanitizeUrl
+```
+</details>
 
 ## Testing
 

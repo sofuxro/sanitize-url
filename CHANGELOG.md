@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.0.3
+- Added legacy usage, using commonjs require
+
 ## 1.0.2
 - Small Readme tweaks
 

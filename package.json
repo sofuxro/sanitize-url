@@ -1,6 +1,6 @@
 {
   "name": "@sofuxro/sanitize-url",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A url sanitizer",
   "type": "module",
   "main": "./dist/index.umd.cjs",
