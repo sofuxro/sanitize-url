@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.0.2
+- Small Readme tweaks
+
+## 1.0.1
+- Small Readme tweaks
+
 ## 1.0.0
 - Fork from @braintree/sanitize-url mainly for adding `import` support
 - DevDependency Changes

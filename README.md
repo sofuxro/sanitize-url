@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/logo.jpeg" alt="Faker" width="200" align="center" title="Sanitize your url inputs">
+<img src="https://github.com/sofuxro/sanitize-url/raw/main/assets/logo.jpeg" alt="Faker" width="200" align="center" title="Sanitize your url inputs">
 </p>
 
 <br />
